@@ -1,0 +1,125 @@
+name: スマートマップ
+zoom: 12
+center:
+  - 138.29255
+  - 34.83344
+minZoom: 9
+maxZoom: 20
+menus:
+  都市情報一覧:
+    metadata:
+      tileUrl: この値を実際のタイルに置き換えてください
+    items:
+      国土数値情報:
+        id: 国土数値情報
+        type: category
+        items:
+          学校:
+            id: 国土数値情報/学校
+            type: data
+            tileId: 国土数値情報--学校
+            metadata:
+              color: '#00ff00'
+            shortId: ZXS
+          中学校区:
+            id: 国土数値情報/中学校区
+            type: data
+            tileId: 国土数値情報--中学校区
+            metadata:
+              color: '#00ff00'
+            shortId: EBC
+          小学校区:
+            id: 国土数値情報/小学校区
+            type: data
+            tileId: 国土数値情報--小学校区
+            metadata:
+              color: '#00ff00'
+            shortId: WHH
+          土砂災害警戒区域:
+            id: 国土数値情報/土砂災害警戒区域
+            type: data
+            tileId: 国土数値情報--土砂災害警戒区域
+            metadata:
+              color: '#00ff00'
+            shortId: MJV
+          大規模盛土造成地:
+            id: 国土数値情報/大規模盛土造成地
+            type: data
+            tileId: 国土数値情報--大規模盛土造成地
+            metadata:
+              color: '#00ff00'
+            shortId: DRN
+          都市計画決定情報:
+            id: 国土数値情報/都市計画決定情報
+            type: category
+            items:
+              防火・準防火地域:
+                id: 国土数値情報/都市計画決定情報/防火・準防火地域
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-防火・準防火地域
+                metadata:
+                  color: '#00ff00'
+                shortId: SMF
+              地区計画:
+                id: 国土数値情報/都市計画決定情報/地区計画
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-地区計画
+                metadata:
+                  color: '#00ff00'
+                shortId: TBX
+              都市計画道路:
+                id: 国土数値情報/都市計画決定情報/都市計画道路
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-都市計画道路
+                metadata:
+                  color: '#00ff00'
+                shortId: OLB
+              高度利用地区:
+                id: 国土数値情報/都市計画決定情報/高度利用地区
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-高度利用地区
+                metadata:
+                  color: '#00ff00'
+                shortId: LJS
+              都市公園:
+                id: 国土数値情報/都市計画決定情報/都市公園
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-都市公園
+                metadata:
+                  color: '#00ff00'
+                shortId: REQ
+              立地適正化計画:
+                id: 国土数値情報/都市計画決定情報/立地適正化計画
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-立地適正化計画
+                metadata:
+                  color: '#00ff00'
+                shortId: QWI
+              特別用途地区:
+                id: 国土数値情報/都市計画決定情報/特別用途地区
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-特別用途地区
+                metadata:
+                  color: '#00ff00'
+                shortId: MUV
+              土地区画整理事業:
+                id: 国土数値情報/都市計画決定情報/土地区画整理事業
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-土地区画整理事業
+                metadata:
+                  color: '#00ff00'
+                shortId: EVZ
+              都市計画区域:
+                id: 国土数値情報/都市計画決定情報/都市計画区域
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-都市計画区域
+                metadata:
+                  color: '#00ff00'
+                shortId: RVJ
+              用途地域:
+                id: 国土数値情報/都市計画決定情報/用途地域
+                type: data
+                tileId: 国土数値情報-都市計画決定情報-用途地域
+                metadata:
+                  color: '#00ff00'
+                shortId: HCB
